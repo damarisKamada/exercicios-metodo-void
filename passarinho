@@ -1,0 +1,28 @@
+import javax.swing.JOptionPane;
+
+public class passarinho {
+	
+	String nome;
+	String corPelo;
+	String tamanho;
+	
+        void pedirInfo() {
+		nome = JOptionPane.showInputDialog("Digite o nome do passarinho:");
+		corPelo = JOptionPane.showInputDialog("Digite a cor do passarinho: ");
+		tamanho = JOptionPane.showInputDialog("O passarinho é pequeno, médio ou grande?");
+	}
+	
+	void piar() {
+		JOptionPane.showMessageDialog(null, "O passarinho cantarolou");
+	}
+	
+	void voar() {
+		JOptionPane.showMessageDialog(null, "O passarinho voou");
+	}
+	
+	void exibirInfo() {
+		JOptionPane.showMessageDialog(null, "O nome do passarinho é: " +nome+ 
+				"\nA A cor do passarinho é: " +corPelo+
+				"\nA O tamanho do passarinho é: " +tamanho);
+	}
+}
