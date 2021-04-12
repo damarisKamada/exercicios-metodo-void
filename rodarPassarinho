@@ -1,0 +1,14 @@
+public class rodarPassarinho {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		passarinho passarinho1 = new passarinho();
+		
+		passarinho1.pedirInfo();
+		passarinho1.piar();
+		passarinho1.voar();
+		passarinho1.exibirInfo();
+	}
+
+}
