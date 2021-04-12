@@ -1,0 +1,42 @@
+
+import javax.swing.JOptionPane;
+
+public class cachorro1 {
+	
+	String nome;
+	String cor;
+	String raca;
+	double preco;
+	
+	void pedirInfo() {
+		
+		nome = JOptionPane.showInputDialog("Digite o nome do cachorro: ");
+		cor = JOptionPane.showInputDialog("Digite a cor do cachorro: ");
+		raca = JOptionPane.showInputDialog("Digite a raça do cachorro: ");
+		preco = Double.parseDouble("Digite o preço do cachorro");
+		
+		
+	}
+	
+	void latir() {
+		JOptionPane.showMessageDialog(null, "au au");
+	}
+	
+	void pular() {
+		JOptionPane.showMessageDialog(null, "o cachorro pulou");
+		
+	}
+	
+	void comer() {
+		JOptionPane.showMessageDialog(null, "o cachorro terminou de comer");
+		
+	}
+	
+	void mostrarDados() {
+		JOptionPane.showMessageDialog(null, "O nome do cachorro é: " +nome+ 
+				"\nA A cor do cachorro é: " +cor+
+				"\nA A raça do cachorro é: " +raca+
+				"\nA O preço é: " +preco);
+	}
+}
+
