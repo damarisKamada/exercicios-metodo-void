@@ -1,0 +1,29 @@
+import javax.swing.JOptionPane;
+
+public class bola {
+
+	String cor;
+	String tamanho;
+	String finalidade;
+	
+	void pedirInfo() {
+		JOptionPane.showInputDialog("Qual é a cor da bola?");
+		JOptionPane.showInputDialog("A bola é grande, média ou pequena?");
+		JOptionPane.showInputDialog("Para o que essa bola é usada?");
+	}
+	
+	void quicar() {
+		JOptionPane.showMessageDialog(null, "A bola saiu quicando");
+	}
+	
+	void chutar() {
+		JOptionPane.showMessageDialog("A bola foi chutada");
+	}
+	
+	void mostrarInfo() {
+		JOptionPane.showMessageDialog(null, "A cor da bola é: " +cor+
+				"\nA o tamanho da bola é: " +tamanho+
+				"\nA essa bola é usada para: " +finalidade);
+		
+	}
+}
