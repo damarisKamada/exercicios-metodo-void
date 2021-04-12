@@ -1,0 +1,16 @@
+
+
+public class rodarCachorro {
+
+	public static void main(String[] args) {
+		
+		cachorro1  cachorro = new cachorro1();
+		
+		cachorro.pedirInfo();
+		cachorro.latir();
+		cachorro.pular();
+		cachorro.comer();
+		cachorro.mostrarDados();
+	}
+
+}
