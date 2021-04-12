@@ -1,0 +1,15 @@
+
+public class rodarBola {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		bola bola1 = new bola();
+		
+		bola1.pedirInfo();
+		bola1.quicar();
+		bola1.chutar();
+		bola1.mostrarInfo();
+	}
+
+}
